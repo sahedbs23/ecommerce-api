@@ -13,6 +13,7 @@ const schema = mongoose.Schema(
       type: String,
       required: [true, 'A product must have a description']
     },
+    images: {},
     price: {
       type: Number,
       required: [true, 'Product price is required'],
